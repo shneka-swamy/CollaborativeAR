@@ -54,21 +54,10 @@ run_euroc_dataset "V2" 1 3 "vicon" "EuRoC_TimeStamps"
 #run_euroc_dataset "V1" 1 3 "vicon_jpeg90" "EuRoC_TimeStamps" 
 #run_euroc_dataset "V2" 1 3 "vicon_jpeg90" "EuRoC_TimeStamps"
 
-# # Run the method for different resolutions
-#run_euroc_dataset "MH" 1 5 "machine_hall_X2" "EuRoC_TimeStamps" 
-#run_euroc_dataset "MH" 1 5 "machine_hall_X3" "EuRoC_TimeStamps" 
-#run_euroc_dataset "MH" 1 5 "machine_hall_X4" "EuRoC_TimeStamps" 
-#run_euroc_dataset "V1" 1 3 "vicon_X2" "EuRoC_TimeStamps" 
-#run_euroc_dataset "V2" 1 3 "vicon_X2" "EuRoC_TimeStamps" 
-#run_euroc_dataset "V1" 1 3 "vicon_X3" "EuRoC_TimeStamps" 
-#run_euroc_dataset "V2" 1 3 "vicon_X3" "EuRoC_TimeStamps" 
+# # Run the method for different resolutions 
+#run_euroc_dataset "MH" 1 5 "machine_hall_X4" "EuRoC_TimeStamps"  
 #run_euroc_dataset "V1" 1 3 "vicon_X4" "EuRoC_TimeStamps" 
 #run_euroc_dataset "V2" 1 3 "vicon_X4" "EuRoC_TimeStamps" 
-
-# Run the method for super resolution -- DRCT
-#run_euroc_dataset "MH" 1 5 "machine_hall_drct" "EuRoC_TimeStamps" 
-#run_euroc_dataset "V1" 1 3 "vicon_drct" "EuRoC_TimeStamps" 
-#run_euroc_dataset "V2" 3 3 "vicon_drct" "EuRoC_TimeStamps"
 
 # Run the method for super resolution method -- AdcSR
 #run_euroc_dataset "MH" 1 5 "machine_hall_adc" "EuRoC_TimeStamps"
@@ -76,22 +65,9 @@ run_euroc_dataset "V2" 1 3 "vicon" "EuRoC_TimeStamps"
 #run_euroc_dataset "V2" 1 3 "vicon_adc" "EuRoC_TimeStamps" 
 
 # Run the method for super resolution -- After removing blur
-#run_euroc_dataset "MH" 1 1 "machine_hall_drct_no_blur" "TimeStamps_DRCT" 
-#run_euroc_dataset "V1" 1 1 "vicon_drct_no_blur" "TimeStamps_DRCT" 
-#run_euroc_dataset "V2" 2 2 "vicon_drct_no_blur" "TimeStamps_DRCT"
-
-#run_euroc_dataset "MH" 5 5 "machine_hall_adc_no_blur" "TimeStamps_ADC"
-#run_euroc_dataset "V1" 1 1 "vicon_adc_no_blur" "TimeStamps_ADC"
-#run_euroc_dataset "V2" 2 2 "vicon_adc_no_blur" "TimeStamps_ADC"
-
-# Run the data with X12 resolution decay and then applying super resolution
-#run_euroc_dataset "MH" 1 5 "machine_hall_X12_drct" "EuRoC_TimeStamps" 
-#run_euroc_dataset "V1" 1 3 "vicon_X12_drct" "EuRoC_TimeStamps" 
-#run_euroc_dataset "V2" 1 3 "vicon_X12_drct" "EuRoC_TimeStamps"
-
-#run_euroc_dataset "MH" 1 5 "machine_hall_X12_adc" "EuRoC_TimeStamps" 
-#run_euroc_dataset "V1" 1 1 "vicon_X12_adc" "EuRoC_TimeStamps" 
-#run_euroc_dataset "V2" 1 3 "vicon_X12_adc" "EuRoC_TimeStamps"
+#run_euroc_dataset "MH" 1 5 "machine_hall_adc_no_blur" "TimeStamps_ADC"
+#run_euroc_dataset "V1" 1 3 "vicon_adc_no_blur" "TimeStamps_ADC"
+#run_euroc_dataset "V2" 1 3 "vicon_adc_no_blur" "TimeStamps_ADC"
 
 run_tum_dataset(){
     local start=$1
