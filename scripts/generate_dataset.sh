@@ -24,14 +24,14 @@ generate_adc_super_resolution(){
     cd ../AdcSR/
     for ((i=start; i<=end; i++)); do
         dir=$(printf "%s_%02d" "$prefix" "$i")
-        input_path=../CollabAR/EuRoC/${dir_name}/${dir}/mav0/cam0/data/
+        input_path=../CollaborativeAR/EuRoC/${dir_name}/${dir}/mav0/cam0/data/
         output_dir="${dir_name/X4_DTC/adc}"
-        output_path=../CollabAR/EuRoC/${output_dir}/${dir}/mav0/cam0/data/
+        output_path=../CollaborativeAR/EuRoC/${output_dir}/${dir}/mav0/cam0/data/
         # For TUM dataset
         #dir=$(printf "dataset-%s%d_512_16" "$prefix" "$i")        
-        #input_path=../CollabAR/TUMVI/${dir_name}/${dir}/mav0/cam0/data/
+        #input_path=../CollaborativeAR/TUMVI/${dir_name}/${dir}/mav0/cam0/data/
         #output_dir="${dir_name/X4/adc}"
-        #output_path=../CollabAR/TUMVI/${output_dir}/${dir}/mav0/cam0/data/
+        #output_path=../CollaborativeAR/TUMVI/${output_dir}/${dir}/mav0/cam0/data/
         echo $output_path
         command="python3 test.py --LR_dir ${input_path} --SR_dir ${output_path}"
         echo $command
