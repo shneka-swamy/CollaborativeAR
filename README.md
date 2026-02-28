@@ -4,6 +4,15 @@ This repository contains the required documents for running the simulation of **
 
 ---
 
+## Clone the repository
+
+```
+git clone https://github.com/shneka-swamy/CollaborativeAR.git
+```
+
+
+---
+
 ## Dataset
 
 Download the dataset.
