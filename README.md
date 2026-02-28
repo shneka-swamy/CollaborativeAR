@@ -10,7 +10,6 @@ This repository contains the required documents for running the simulation of **
 git clone https://github.com/shneka-swamy/CollaborativeAR.git
 ```
 
-
 ---
 
 ## Dataset
@@ -48,7 +47,7 @@ No changes are made to images that are blurred.
 To run the previous two steps together, follow the format provided in:
 
 ```
-scripts/generate_dataset.sh
+bash scripts/generate_dataset.sh
 ```
 
 ### 3. Combine Images
@@ -101,7 +100,7 @@ Simulation/main.py
 Follow the running format provided in:
 
 ```
-runSimulation.py
+bash scripts/runSimulation.sh
 ```
 
 ---
