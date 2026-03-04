@@ -2,7 +2,7 @@
 
 This repository contains the implementation used in the evaluation section of the following paper:
 
-Shneka Muthu Kumara Swamy, Mallesh M., Jacob C., Nick M.,  
+Shneka M., Mallesh M., Jacob C., Nick M.,  
 "SPARC: Proximity-aware Scheduling of AR Mapping and Cloud-based GenAI Upsampling for Efficient Multi-User,"  
 ACM Multimedia Systems (MMSys), 2026.
 
