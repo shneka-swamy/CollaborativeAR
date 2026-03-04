@@ -1,4 +1,16 @@
-# CollaborativeAR
+# SPARC: Proximity-aware Scheduling of AR Mapping and Cloud-based ML Upsampling for Efficient Multi-User SLAM
+
+This repository contains the implementation used in the evaluation section of the following paper:
+
+Shneka Muthu Kumara Swamy, Mallesh M., Jacob C., Nick M.,  
+"SPARC: Proximity-aware Scheduling of AR Mapping and Cloud-based ML Upsampling for Efficient Multi-User SLAM,"  
+ACM Multimedia Systems (MMSys), 2026.
+
+The code supports the experiments reported in the paper, including:
+- Multi-user SLAM scheduling
+- Cloud-based ML upsampling
+- Latency and rendering evaluation
+
 
 This repository contains the required documents for running the simulation of **SPARC**.
 
